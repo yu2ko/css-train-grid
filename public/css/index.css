@@ -1,247 +1,447 @@
+/* 'Завдання 1' description='Зробіть елемент .task1 сітковим блочним контейнером' */
 .task1 {
-}
-
-.task2 {
-}
-
-.task3 {
   display: grid;
 }
 
+/* 'Завдання 2' description='Зробіть елемент .task2 сітковим рядковим контейнером' */
+.task2 {
+  display: inline-grid;
+}
+
+/* 'Завдання 3' description='Для елемента .task3 встановіть відступи між елементами .item 25рх між рядками та 10рх між колонками' */
+.task3 {
+  display: grid;
+  /* row-gap: 25px;
+  column-gap: 10px; */
+  gap: 25px 10px;
+}
+
+/* 'Завдання 4' description='Для елемента .task4 виведіть елементи .item в порядку показаному на картинці' */
 .task4 {
   display: grid;
 }
 .task4 .item2 {
+  order: 5;
 }
 .task4 .item4 {
+  order: 4;
 }
 .task4 .item3 {
+  order: 6;
 }
 
+/* 'Завдання 5' description='Для елемента .task5 розмістіть елементи .item на початку першій лінії' */
 .task5 {
   display: grid;
+  justify-content: flex-start;
+  /* justify-content: end; */
 }
 
+/* 'Завдання 6' description='Для елемента .task6 розмістіть елементи .item в кінці першій лінії' */
 .task6 {
   display: grid;
+  justify-content: flex-end;
+  /* justify-content: end; */
 }
 
+/* 'Завдання 7' description='Для елемента .task7 розмістіть елементи .item по центру першій лінії' */
 .task7 {
   display: grid;
+  justify-content: center;
 }
 
+/* 'Завдання 8' description='Для елемента .task8 розмістіть елементи .item рівномірно без відступів від країв по першій лінії' */
 .task8 {
   display: grid;
+  justify-content: space-between;
 }
 
+/* 'Завдання 9' description='Для елемента .task9 розмістіть елементи .item з однаковими відстанями між ними та з меншим відступом від країв контейнера по першій лінії' */
 .task9 {
   display: grid;
+  justify-content: space-around;
 }
 
+/* 'Завдання 10' description='Для елемента .task10 розмістіть елементи .item рівномірно по першій лінії з однаковими відстанями між елементами та країв блоку' */
 .task10 {
   display: grid;
+  justify-content: space-evenly;
 }
 
+/* 'Завдання 11' description='Для елемента .task11 розмістіть елементи .item так щоб вони заповнили всю першу линію' */
 .task11 {
   display: grid;
+  align-items: stretch;
 }
 
+/* 'Завдання 12' description='Для елемента .task12 розмістіть елементи .item на початку другої лінії' */
 .task12 {
   display: grid;
+  align-content: flex-start;
+  /* align-content: start; */
 }
 
+/* 'Завдання 13' description='Для елемента .task13 розмістіть елементи .item в кінці другої лінії' */
 .task13 {
   display: grid;
+  align-content: flex-end;
+  /* align-content: end; */
 }
 
+/* 'Завдання 14' description='Для елемента .task14 розмістіть елементи .item по центру другої лінії' */
 .task14 {
   display: grid;
+  align-content: center;
 }
 
+/* 'Завдання 15' description='Для елемента .task15 розмістіть елементи .item так щоб вони заповнили всю другу линію' */
 .task15 {
   display: grid;
+  align-content: stretch;
 }
 
+/* 'Завдання 16' description='Для елемента .task16 розмістіть елементи .item рівномірно без відступів від країв по другій лінії' */
 .task16 {
   display: grid;
+  align-content: space-between;
 }
 
+/* 'Завдання 17' description='Для елемента .task17 розмістіть елементи .item з однаковими відстанями між ними та з меншим відступом від країв контейнера по другій лінії' */
 .task17 {
   display: grid;
+  align-content: space-around;
 }
 
+/* 'Завдання 18' description='Для елемента .task18 розмістіть елементи .item рівномірно по другій лінії з однаковими відстанями між елементами та країв блоку' */
 .task18 {
   display: grid;
+  align-content: space-evenly;
 }
 
+/* 'Завдання 19' description='Для елемента .task19 розмістіть елементи .item на початку першої лінії та по центру другїй лінії' */
 .task19 {
   display: grid;
+  justify-content: flex-start;
+  /* justify-content: start; */
+  align-content: center;
 }
 
+/* 'Завдання 20' description='Для елемента .task20 вирівняйте елементи .item на початку першої лінії' */
 .task20 {
   display: grid;
+  justify-items: flex-start;
+  /* justify-items: start; */
 }
 
+/* 'Завдання 21' description='Для елемента .task21 вирівняйте елементи .item в кінці першої лінії' */
 .task21 {
   display: grid;
+  justify-items: flex-end;
+  /* justify-items: end; */
 }
 
+/* 'Завдання 22' description='Для елемента .task22 вирівняйте елементи .item по центру першої лінії' */
 .task22 {
   display: grid;
+  justify-items: center;
 }
 
+/* 'Завдання 23' description='Для елемента .task23 вирівняйте елементи .item так щоб вони заповнили всю першу линію' */
 .task23 {
   display: grid;
+  justify-items: stretch;
 }
 
+/* 'Завдання 24' description='Для елемента .task24 вирівняйте елементи .item на початку другої лінії' */
 .task24 {
   display: grid;
+  align-items: flex-start;
+  /* align-items: start; */
 }
 
+/* 'Завдання 25' description='Для елемента .task25 вирівняйте елементи .item в кінці другої лінії' */
 .task25 {
   display: grid;
+  align-items: flex-end;
+  /* align-items: end; */
 }
 
+/* 'Завдання 26' description='Для елемента .task26 вирівняйте елементи .item по центру другої лінії' */
 .task26 {
   display: grid;
+  align-items: center;
 }
 
+/* 'Завдання 27' description='Для елемента .task27 вирівняйте елементи .item так щоб вони заповнили всю першу линію' */
 .task27 {
   display: grid;
+  align-items: stretch;
 }
 
+/* 'Завдання 28' description='Для елемента .task28 вирівняйте елементи .item по тексту на другій линії' */
 .task28 {
   display: grid;
+  align-items: baseline;
 }
 
+/* 'Завдання 29' description='Для елемента .task29 вирівняйте елементи .item по центру першої лінії та розтяніть по другїй лінії' */
 .task29 {
   display: grid;
+  justify-items: center;
 }
 
+/* 'Завдання 30' description='Для елемента .task30 вирівняйте елемент .item1 по початку першої лінії' */
 .task30 {
   display: grid;
 }
 .task30 .item1 {
+  justify-self: flex-start;
+  /* justify-self: start; */
 }
 
+/* 'Завдання 31' description='Для елемента .task31 вирівняйте елемент .item2 по краю першої лінії' */
 .task31 {
   display: grid;
 }
 .task31 .item2 {
+  justify-self: flex-end;
+  /* justify-self: end; */
 }
 
+/* 'Завдання 32' description='Для елемента .task32 вирівняйте елемент .item3 по центру першої лінії' */
 .task32 {
   display: grid;
 }
 .task32 .item3 {
+  justify-self: center;
 }
 
+/* 'Завдання 33' description='Для елемента .task33 розтяніть елемент .item4 по першій лінії' */
 .task33 {
   display: grid;
 }
 .task33 .item4 {
+  justify-self: stretch;
 }
 
+/* 'Завдання 34' description='Для елемента .task34 вирівняйте елемент .item1 по початку другої лінії' */
 .task34 {
   display: grid;
 }
 .task34 .item1 {
+  align-self: flex-start;
+  /* align-self: self-start; */
 }
 
+/* 'Завдання 35' description='Для елемента .task35 вирівняйте елемент .item2 по краю другої лінії' */
 .task35 {
   display: grid;
 }
 .task35 .item2 {
+  align-self: flex-end;
+  /* align-self: self-end; */
 }
 
+/* 'Завдання 36' description='Для елемента .task36 вирівняйте елемент .item3 по центру другої лінії' */
 .task36 {
   display: grid;
 }
 .task36 .item3 {
+  align-self: center;
 }
 
+/* 'Завдання 37' description='Для елемента .task37 розтяніть елемент .item4 по другій лінії' */
 .task37 {
   display: grid;
 }
 .task37 .item4 {
+  align-self: stretch;
 }
 
+/* 'Завдання 38' description='Для елемента .task38 вирівняйте елемент .item5 по початку першої лінії,та по центру другій лінії' */
 .task38 {
   display: grid;
 }
 .task38 .item5 {
+  place-self: center flex-start;
+  /* place-self: center start; */
 }
 
+/* 'Завдання 39' description='Для елемента .task39 розмістіть елементи .item в три рядки з відношенням розмірів 1/2/3' */
 .task39 {
   display: grid;
+  grid-template-rows: 1fr 2fr 3fr;
 }
 
+/* 'Завдання 40' description='Для елемента .task40 розмістіть елементи .item в два стовпці з розміром по контенту але не більше 30% та 70% відповідно' */
 .task40 {
   display: grid;
+  grid-template-columns: fit-content(30%) fit-content(70%);
+  /* grid-template-columns: minmax(0, 30%) minmax(0, 70%); */
 }
 
+/* 'Завдання 41' description='Для елемента .task41 розмістіть елементи .item в три рядки з розмірами від 110px до 30% ,
+		та два стовпці з однаковим відношенням розмірів (використовуйте функцію поторення)' */
 .task41 {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(110px, 30%));
 }
 
+/* 'Завдання 42' description='Для елемента .task42 використовуючи шаблон області розмістіть елементи .item в відповідності з зображенням' */
 .task42 {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 .task42 .item1 {
+  grid-column: 1;
+  grid-row: 1 / 3;
 }
 .task42 .item2 {
+  grid-column: 2;
+  grid-row: 1;
 }
 .task42 .item3 {
+  grid-column: 2;
+  grid-row: 2;
 }
 .task42 .item4 {
+  grid-column: 1;
+  grid-row: 3 / 5;
 }
 .task42 .item5 {
+  grid-column: 2;
+  grid-row: 3;
 }
 .task42 .item6 {
+  grid-column: 2;
+  grid-row: 4;
+}
+/* ====================================================== */
+/* 'Завдання 42bis' description='Для елемента .task42 використовуючи шаблон області розмістіть елементи .item в відповідності з зображенням' */
+.task42bis {
+  display: grid;
+  grid-template-areas:
+    'a c'
+    'a d'
+    'b e'
+    'b f';
+}
+.task42bis .item1 {
+  grid-area: a;
+}
+.task42bis .item2 {
+  grid-area: c;
+}
+.task42bis .item3 {
+  grid-area: d;
+}
+.task42bis .item4 {
+  grid-area: b;
+}
+.task42bis .item5 {
+  grid-area: e;
+}
+.task42bis .item6 {
+  grid-area: f;
 }
 
+/* 'Завдання 42bis2' description='Для елемента .task42bis2 використовуючи шаблон області розмістіть елементи .item в відповідності з зображенням' */
+.task42bis2 {
+  display: grid;
+}
+.task42bis2 .item1 {
+  grid-row: 1 / 3;
+}
+.task42bis2 .item2 {
+  grid-row: 1 / 2;
+}
+.task42bis2 .item3 {
+  grid-row: 2 / 3;
+}
+.task42bis2 .item4 {
+  grid-row: 3 / 5;
+}
+.task42bis2 .item5 {
+  grid-row: 3 / 4;
+}
+.task42bis2 .item6 {
+  grid-row: 4 / 5;
+}
+
+/* ====================================================== */
+/* 'Завдання 43' description='Для елемента .task43 використовуючи стовпці сітки розмістіть елементи .item в відповідності з зображенням' */
 .task43 {
   display: grid;
 }
 .task43 .item3 {
+  grid-column: 1 / 3;
 }
 
+/* 'Завдання 44' description='Для елемента .task44 використовуючи рядки сітки розмістіть елементи .item в відповідності з зображенням' */
 .task44 {
   display: grid;
 }
 .task44 .item3 {
+  grid-row: 1 / 3;
 }
 
+/* 'Завдання 45' description='Для елемента .task45 використовуючи область сітки розмістіть елементи .item в відповідності з зображенням' */
 .task45 {
   display: grid;
 }
 .task45 .item3 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
 }
 
+/* 'Завдання 46' description='Для елемента .task46 використовуючи автоматичні стовпці, розмістіть елементи .item в два стовпці, 
+		ширина першого має бути відповідною до мінімального вмісту елементів, а другого максимальною */
 .task46 {
   display: grid;
+  grid-template-columns: min-content max-content;
 }
 
+/* 'Завдання 47' description='Для елемента .task47 використовуючи автоматичні рядки, розмір яких має бути відповідним до мінімального вмісту елементів' */
 .task47 {
   display: grid;
+  grid-template-rows: min-content;
+  /* grid-template-rows: auto; */
 }
 
+/* 'Завдання 48' description='Для елемента .task48 використовуючи автоматичне розміщення, розмістіть елементи по рядкам' */
 .task48 {
   display: grid;
+  grid-auto-flow: row;
 }
 
-.task50 {
-  display: grid;
-}
-
+/* 'Завдання 49' description='Для елемента .task49 використовуючи автоматичне розміщення, розмістіть елементи по стовбцям' */
 .task49 {
   display: grid;
+  grid-auto-flow: column;
 }
 
+/* 'Завдання 50' description='Для елемента .task50 використовуючи автоматичне розміщення, розмістіть елементи якомога ближче один до одного, заповнюючи всі можливі проміжки */
+.task50 {
+  display: grid;
+  grid-auto-flow: dense;
+}
+
+/* 'Завдання 51' description='Для елемента .task51 автоматично згенеруйте стовбці з широную від 100px до 1fr, зберігаючи мінімальній розмір' */
 .task51 {
   display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(100px, 1fr)
+  );
 }
 
+/* 'Завдання 52' description='Для елемента .task52 автоматично згенеруйте стовбці з широную від 100px до 1fr, з повним заповненням простору' */
 .task52 {
   display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(100px, 1fr)
+  );
 }
