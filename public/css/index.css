@@ -34,7 +34,7 @@
 .task5 {
   display: grid;
   justify-content: flex-start;
-  /* justify-content: end; */
+  /* justify-content: start; */
 }
 
 /* 'Завдання 6' description='Для елемента .task6 розмістіть елементи .item в кінці першій лінії' */
@@ -71,7 +71,7 @@
 /* 'Завдання 11' description='Для елемента .task11 розмістіть елементи .item так щоб вони заповнили всю першу линію' */
 .task11 {
   display: grid;
-  align-items: stretch;
+  justify-content: stretch;
 }
 
 /* 'Завдання 12' description='Для елемента .task12 розмістіть елементи .item на початку другої лінії' */
@@ -188,6 +188,7 @@
 .task29 {
   display: grid;
   justify-items: center;
+  align-items: stretch;
 }
 
 /* 'Завдання 30' description='Для елемента .task30 вирівняйте елемент .item1 по початку першої лінії' */
